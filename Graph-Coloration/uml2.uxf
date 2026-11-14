@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>640</x><y>160</y><w>330</w><h>130</h></coordinates><panel_attributes>/AbstractClass/
+AbstractColorAlgorithm
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1140</x><y>210</y><w>230</w><h>80</h></coordinates><panel_attributes>WelshAndPowell
+--
+- colorMap : HashMap&lt;INode, Integer&gt;
+--
++ WelshAndPowell(IGraph g)</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>240</x><y>240</y><w>240</w><h>70</h></coordinates><panel_attributes>SixColorationPlanarAlgorithm</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>770</x><y>370</y><w>190</w><h>80</h></coordinates><panel_attributes>FiveColorationPlanarAlgorithm</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>960</x><y>220</y><w>200</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>870</x><y>280</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>470</x><y>260</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>170;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>30</y><w>100</w><h>70</h></coordinates><panel_attributes>&lt;&lt;Interface&gt;&gt;
+Algorithm
+--
++ apply(IGraph g, Map&lt;String, Object&gt; parameters) : T
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>770</x><y>90</y><w>30</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>860</x><y>720</y><w>250</w><h>140</h></coordinates><panel_attributes>Edge
+--
+- nodeSrc : INode
+- nodeDst : INode
+--
++ Edge(INode nodeSourc, INode nodeDest)
++ source() : INode
++ terget() : INode
+- setSrc(Node src) : void
+- setDst(Node dst) : void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>780</y><w>100</w><h>40</h></coordinates><panel_attributes>Node
+--
++ Node()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>170</x><y>0</y><w>1220</w><h>590</h></coordinates><panel_attributes>Algorithm
+--
+bg=gray
+fg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>630</x><y>670</y><w>510</w><h>240</h></coordinates><panel_attributes>graphs
+--
+bg=gray
+fg=red</panel_attributes><additional_attributes></additional_attributes></element></diagram>

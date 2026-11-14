@@ -1,0 +1,24 @@
+package info.iut.sae2.algorithm;
+
+import info.iut.sae2.graphs.IGraph;
+import java.util.Map;
+
+public class AbstractColorAlgorithm<T> implements Algorithm<T> {
+
+    
+    /**
+     * Compute the result of the algorithm and returns it.
+     * @param g the graph on which the algorithm is applied
+     * @param parameters map of parameters associating parameters names to parameters values
+     * @return the result of the algorithm
+     */
+    @Override
+    public T apply(IGraph g, Map<String, Object> parameters) {
+
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'apply'");
+    }
+
+    
+
+}
