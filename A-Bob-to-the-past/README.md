@@ -1,1 +1,10 @@
-
+- [x] Objectif 1 : dessiner un étage du labyrinthe
+	- 3/09/26
+- [x] Objectif 2 : déplacer des personnages
+	- 4/09/26
+- [x] Objectif 3 : monstres
+	- 7/09/26
+- [x] Objectif 4 : améliorations simples
+	- 10/09/26
+- [ ] Objectif 5 : améliorations plus complexes
+	- *non effectué*
